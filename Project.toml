@@ -1,0 +1,13 @@
+name = "MyPackage"
+uuid = "d4cf06d2-52e4-4feb-82b6-aff5c4ec8f08"
+authors = ["RajDandekar <rajd@mit.edu>"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
